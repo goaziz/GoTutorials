@@ -21,6 +21,6 @@ func init()  {
 
 func main()  {
 	fmt.Println("Go packages in this tutorial")
-	fmt.Printf("area pf rectangle %.2f\n", rectangle.Area(rectLen, recWidth))
-	fmt.Printf("area pf rectangle %.2f\n", rectangle.Diagonal(rectLen, recWidth))
+	fmt.Printf("area of rectangle %.2f\n", rectangle.Area(rectLen, recWidth))
+	fmt.Printf("area of rectangle %.2f\n", rectangle.Diagonal(rectLen, recWidth))
 }
